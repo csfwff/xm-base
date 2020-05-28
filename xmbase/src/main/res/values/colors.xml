@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorText0">#000000</color>
+    <color name="colorText3">#333333</color>
+    <color name="colorText6">#666666</color>
+    <color name="colorText8">#888888</color>
+    <color name="colorText9">#999999</color>
+
+    <color name="grayPress">#cccccc</color>
+    <color name="grayLine">#e3e3e3</color>
+    <color name="grayBg">#f1f1f1</color>
+</resources>

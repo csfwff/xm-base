@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--自定义标题栏-->
+    <declare-styleable name="XmTitleBar">
+        <attr name="isBackShow" format="boolean"/>
+        <attr name="isCloseShow" format="boolean"/>
+        <attr name="isRightShow" format="boolean"/>
+        <attr name="titleName" format="string"/>
+        <attr name="rightText" format="string"/>
+        <attr name="backgroundColor" format="color"/>
+        <attr name="titleColor" format="color"/>
+        <attr name="rightTextColor" format="color"/>
+        <attr name="backImg" format="reference"/>
+        <attr name="closeImg" format="reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="XmTabItem">
+        <attr name="itemName" format="string"/>
+        <attr name="selected" format="boolean"/>
+        <attr name="checkedLine" format="reference"/>
+        <attr name="checkedColor" format="color"/>
+        <attr name="unCheckedColor" format="color"/>
+    </declare-styleable>
+</resources>
