@@ -94,10 +94,8 @@ public class XmTitleBar extends RelativeLayout implements View.OnClickListener {
                 mOnBackClickListener.onBackClick();
             }
         } else if (id == R.id.title_right_tv) {
-            if (mOnBackClickListener == null) {
-                ((Activity) getContext()).finish();
-            } else {
-                mOnBackClickListener.onBackClick();
+            if (mOnRightTextClickListener != null) {
+                mOnRightTextClickListener.onRightClick();
             }
         } else if (id == R.id.close_img) {
             if (mOnCloseClickListener != null) mOnCloseClickListener.onCloseClick();
